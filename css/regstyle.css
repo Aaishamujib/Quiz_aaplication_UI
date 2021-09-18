@@ -1,0 +1,40 @@
+*{margin: 0; padding:0;}
+body{
+    background: url(snow.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+form {
+    margin: auto;
+    max-width: 500px;
+    background-color: #908c8c33;
+    padding: 30px 30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.82);
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    color: #673333;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/*text box*/
+input{                
+    padding: 3px 40px;
+    background: #00000047;
+    border-radius: 5px;
+    border-bottom: #d81b1b;
+    border: none;
+}
+
+/*button*/
+element submit{           
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.095em;
+    font-weight: 500;
+    font-style: normal;
+    color: whitesmoke;
+    padding: 2px 30px;
+    border-radius: 30px;
+}
+

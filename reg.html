@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/regstyle.css">
+</head>
+
+<body>
+    <form name="registration form" action="Home.html" method="post" novalidate target="_blank">
+        <b>Registration form</b><br><br>
+        Full Name
+        <input type="text" name="full name"><br><br>
+        Gender<br>
+        <input type="radio" id="gender" name="gender" />Female
+        <input type="radio" id="gender" name="gender" />Male<br><br>
+        Date Of Birth
+        <input type="date" name="date"><br><br>
+        Graduation
+        <input type="text" name="graduation"><br><br>
+        Schooling
+        <input type="text" name="schooling"><br><br>
+        Courses
+        <select name="courses" id="courses">
+           <!-- <optgroup label="Programming Language">-->
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="c++">C++</option>
+                <option value="c">C</option>
+           <!-- </optgroup>
+            <optgroup label="Web Technology">-->
+                <option value="html">Html</option>
+                <option value="css">Css</option>
+                <option value="javascript">JavaScript</option>
+            <!--</optgroup>-->
+        </select><br><br>
+        Email id
+        <input type="email" id="email" name="email"><br><br>
+        New Password
+        <input type="password" id="password" name="password"><br><br>
+        Conform Password
+        <input type="password" id="password" name="password"><br><br>
+        <!--Contact Number
+        <input type="number" name="contact number">--><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

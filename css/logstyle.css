@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*body{
+    background-image: url("scene.jpeg"),
+                      url("bckgrnd.jpg"),
+                      url("autumn.jpg"); 
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 460px 600px;
+    background-position:0px 0px, 500px 0px, 1000px 0px;
+}*/
+.form-login{
+           text-align: center;
+           text-decoration-color: black;
+           position: absolute;
+           top: 70px;
+           font-size: 20px;
+           left: 50%;
+           transform: translateX(-50%);
+}
+.form-login button{
+      margin-top: -9px;
+      font-size: 15px;
+      border-radius: 10px;
+      padding: 2px 30px;
+      border: 2px #a329ad;
+      background: #68890c4d;
+      cursor: pointer;
+      box-shadow: 2px 2px;
+}
+  
+.main-content{
+             position: relative;
+             height: 100vh;
+}
+.bg-image{
+         width: 33.33%;
+        display: inherit;
+        height: 100vh;
+} 
+.bgdiv {
+    display: flex;
+}
+input {
+    background: #221d1d4a;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+}
+    
+.signin-btn{
+    margin-top: -9px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-decoration-color: black;
+    padding: 2px 30px;
+    border: 2px #130414;
+    background: #b1ca6b4d;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+}
